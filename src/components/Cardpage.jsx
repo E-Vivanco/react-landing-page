@@ -13,7 +13,7 @@ const Cardpage = () => {
   return (
     
     <div className="card">
-      <img src={rigo} whi className="card-img-top w-50" alt="imagen"/>
+      <img src={rigo} whi className="card-img-top w-60" alt="imagen"/>
       <div className="card-body">
         <h5 className="card-title">{data.titulo}</h5>
         <p className="card-text">{data.texto}</p>
