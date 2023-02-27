@@ -8,7 +8,7 @@ const data = {
 
 }
 
-const Cardpage = () => {
+const Card = () => {
 
   return (
     
@@ -24,4 +24,4 @@ const Cardpage = () => {
   );
 }
 
-export default Cardpage;
+export default Card;

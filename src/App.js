@@ -2,7 +2,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Jumbotron from './components/Jumbotron';
-import Cardpage from './components/Cardpage';
+import Card from './components/Card';
 import Footer from './components/Footer';
 
 function App() {
@@ -14,16 +14,16 @@ function App() {
           <Jumbotron/>
           <div className='row'>
 					<div className="col-3 auto">
-						<Cardpage />
+						<Card />
 					</div>
 					<div className="col-3 auto">
-						<Cardpage />
+						<Card />
 					</div>
 					<div className="col-3 auto">
-						<Cardpage />
+						<Card />
 					</div>
 					<div className="col-3 auto">
-						<Cardpage />
+						<Card />
 					</div>
           </div>
           </div>
